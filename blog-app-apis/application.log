@@ -1,0 +1,352 @@
+2022-06-01 22:05:23,789 INFO  StartupInfoLogger:  55 - [] Starting BlogAppApisApplication using Java 11.0.14 on DESKTOP-D6OBI7N with PID 22824 (D:\workspace_eclipse\blog-app-apis\target\classes started by RipuSudanSoni in D:\workspace_eclipse\blog-app-apis)
+2022-06-01 22:05:23,966 INFO  SpringApplication:  640 - [] No active profile set, falling back to 1 default profile: "default"
+2022-06-01 22:05:24,288 INFO  DeferredLog:  255 - [] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-01 22:05:24,290 INFO  DeferredLog:  255 - [] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-01 22:05:31,785 INFO  RepositoryConfigurationDelegate:  132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-01 22:05:32,267 INFO  RepositoryConfigurationDelegate:  201 - [] Finished Spring Data repository scanning in 439 ms. Found 5 JPA repository interfaces.
+2022-06-01 22:05:39,465 INFO  TomcatWebServer:  108 - [] Tomcat initialized with port(s): 9005 (http)
+2022-06-01 22:05:39,531 INFO  DirectJDKLog:  173 - [] Starting service [Tomcat]
+2022-06-01 22:05:39,534 INFO  DirectJDKLog:  173 - [] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-01 22:05:40,112 INFO  DirectJDKLog:  173 - [] Initializing Spring embedded WebApplicationContext
+2022-06-01 22:05:40,114 INFO  ServletWebServerApplicationContext:  290 - [] Root WebApplicationContext: initialization completed in 15822 ms
+2022-06-01 22:05:40,793 INFO  LogHelper:  31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-01 22:05:41,135 INFO  Version:  44 - [] HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-06-01 22:05:42,172 INFO  JavaReflectionManager:  56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-01 22:05:42,766 INFO  HikariDataSource:  110 - [] HikariPool-1 - Starting...
+2022-06-01 22:05:43,572 INFO  HikariDataSource:  123 - [] HikariPool-1 - Start completed.
+2022-06-01 22:05:43,657 INFO  Dialect:  175 - [] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-06-01 22:05:48,456 INFO  JtaPlatformInitiator:  52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-01 22:05:48,488 INFO  AbstractEntityManagerFactoryBean:  437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-01 22:05:49,953 WARN  JpaBaseConfiguration$JpaWebConfiguration:  219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-01 22:05:51,020 DEBUG PrePostAnnotationSecurityMetadataSource:  112 - [] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('ADMIN')") found on specific method: public org.springframework.http.ResponseEntity com.project.blog.controllers.UserController.deleteUser(java.lang.Integer)
+2022-06-01 22:05:51,090 DEBUG DelegatingMethodSecurityMetadataSource:  76 - [] Caching method [CacheKey[com.project.blog.controllers.UserController; public org.springframework.http.ResponseEntity com.project.blog.controllers.UserController.deleteUser(java.lang.Integer)]] with attributes [[authorize: 'hasRole('ADMIN')', filter: 'null', filterTarget: 'null']]
+2022-06-01 22:05:52,719 INFO  DefaultSecurityFilterChain:  52 - [] Will not secure any request
+2022-06-01 22:05:52,979 INFO  OptionalLiveReloadServer:  58 - [] LiveReload server is running on port 35729
+2022-06-01 22:05:54,119 INFO  TomcatWebServer:  220 - [] Tomcat started on port(s): 9005 (http) with context path ''
+2022-06-01 22:05:56,012 INFO  StartupInfoLogger:  61 - [] Started BlogAppApisApplication in 34.84 seconds (JVM running for 40.59)
+2022-06-01 22:08:25,057 INFO  DirectJDKLog:  173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-01 22:08:25,058 INFO  FrameworkServlet:  525 - [] Initializing Servlet 'dispatcherServlet'
+2022-06-01 22:08:25,071 INFO  FrameworkServlet:  547 - [] Completed initialization in 12 ms
+2022-06-01 22:08:25,114 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/index.html
+2022-06-01 22:08:25,143 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:25,151 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@10f085b4
+2022-06-01 22:08:25,152 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:25,161 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:25,166 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/index.html
+2022-06-01 22:08:25,287 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:25,373 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/springfox.css?v=3.0.0
+2022-06-01 22:08:25,374 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:25,375 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6ce8cf48
+2022-06-01 22:08:25,376 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:25,378 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:25,379 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/springfox.css?v=3.0.0
+2022-06-01 22:08:25,379 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui.css?v=3.0.0
+2022-06-01 22:08:25,380 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:25,380 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2d26a368
+2022-06-01 22:08:25,381 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:25,382 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:25,382 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui.css?v=3.0.0
+2022-06-01 22:08:25,392 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:25,399 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-06-01 22:08:25,400 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:25,400 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@433dc9d1
+2022-06-01 22:08:25,401 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:25,402 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:25,407 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-06-01 22:08:25,403 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-06-01 22:08:25,409 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:25,412 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/springfox.js?v=3.0.0
+2022-06-01 22:08:25,413 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@26a6a4eb
+2022-06-01 22:08:25,415 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:25,415 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:25,416 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5cf9bd84
+2022-06-01 22:08:25,417 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:25,416 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:25,419 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:25,420 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-06-01 22:08:25,424 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:25,423 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/springfox.js?v=3.0.0
+2022-06-01 22:08:25,483 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:25,522 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:25,582 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:26,049 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources/configuration/ui
+2022-06-01 22:08:26,049 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:26,050 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@79c8271d
+2022-06-01 22:08:26,050 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:26,052 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:26,053 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources/configuration/ui
+2022-06-01 22:08:26,232 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:26,251 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources/configuration/security
+2022-06-01 22:08:26,252 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:26,252 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1c9d1aed
+2022-06-01 22:08:26,253 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:26,253 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:26,256 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources/configuration/security
+2022-06-01 22:08:26,274 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:26,290 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources
+2022-06-01 22:08:26,291 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:26,291 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@529f9045
+2022-06-01 22:08:26,292 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:26,293 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:26,294 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources
+2022-06-01 22:08:26,310 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:08:26,421 DEBUG FilterChainProxy:  208 - [] Securing GET /v2/api-docs
+2022-06-01 22:08:26,421 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:08:26,422 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@38e254e2
+2022-06-01 22:08:26,422 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:08:26,422 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:08:26,423 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /v2/api-docs
+2022-06-01 22:08:27,070 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:09:33,404 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/Terms of Service
+2022-06-01 22:09:33,406 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:09:33,415 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@973bb3b
+2022-06-01 22:09:33,416 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:09:33,416 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:09:33,417 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/Terms of Service
+2022-06-01 22:09:33,424 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:09:33,433 DEBUG FilterChainProxy:  208 - [] Securing GET /error
+2022-06-01 22:09:33,434 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:09:33,435 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:09:33,436 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /error
+2022-06-01 22:09:33,559 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:09:33,987 DEBUG FilterChainProxy:  208 - [] Securing GET /favicon.ico
+2022-06-01 22:09:33,988 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:09:33,989 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@155db911
+2022-06-01 22:09:33,990 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 22:09:33,991 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:09:33,991 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /favicon.ico
+2022-06-01 22:09:33,994 WARN  DispatcherServlet:  1278 - [] No mapping for GET /favicon.ico
+2022-06-01 22:09:33,995 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 22:09:33,996 DEBUG FilterChainProxy:  208 - [] Securing GET /error
+2022-06-01 22:09:33,997 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 22:09:33,997 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 22:09:33,999 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /error
+2022-06-01 22:09:34,061 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:09:49,765 INFO  StartupInfoLogger:  55 - [] Starting BlogAppApisApplication using Java 11.0.14 on DESKTOP-D6OBI7N with PID 15656 (D:\workspace_eclipse\blog-app-apis\target\classes started by RipuSudanSoni in D:\workspace_eclipse\blog-app-apis)
+2022-06-01 23:09:49,788 INFO  SpringApplication:  640 - [] No active profile set, falling back to 1 default profile: "default"
+2022-06-01 23:09:50,346 INFO  DeferredLog:  255 - [] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-01 23:09:50,361 INFO  DeferredLog:  255 - [] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-01 23:09:57,630 INFO  RepositoryConfigurationDelegate:  132 - [] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-01 23:09:58,078 INFO  RepositoryConfigurationDelegate:  201 - [] Finished Spring Data repository scanning in 413 ms. Found 5 JPA repository interfaces.
+2022-06-01 23:10:08,323 INFO  TomcatWebServer:  108 - [] Tomcat initialized with port(s): 9005 (http)
+2022-06-01 23:10:08,412 INFO  DirectJDKLog:  173 - [] Starting service [Tomcat]
+2022-06-01 23:10:08,413 INFO  DirectJDKLog:  173 - [] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-01 23:10:09,131 INFO  DirectJDKLog:  173 - [] Initializing Spring embedded WebApplicationContext
+2022-06-01 23:10:09,132 INFO  ServletWebServerApplicationContext:  290 - [] Root WebApplicationContext: initialization completed in 18769 ms
+2022-06-01 23:10:09,950 INFO  LogHelper:  31 - [] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-01 23:10:10,343 INFO  Version:  44 - [] HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-06-01 23:10:12,006 INFO  JavaReflectionManager:  56 - [] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-01 23:10:13,346 INFO  HikariDataSource:  110 - [] HikariPool-1 - Starting...
+2022-06-01 23:10:14,589 INFO  HikariDataSource:  123 - [] HikariPool-1 - Start completed.
+2022-06-01 23:10:14,708 INFO  Dialect:  175 - [] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-06-01 23:10:19,429 INFO  JtaPlatformInitiator:  52 - [] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-01 23:10:19,455 INFO  AbstractEntityManagerFactoryBean:  437 - [] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-01 23:10:21,025 WARN  JpaBaseConfiguration$JpaWebConfiguration:  219 - [] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-01 23:10:22,270 DEBUG PrePostAnnotationSecurityMetadataSource:  112 - [] @org.springframework.security.access.prepost.PreAuthorize(value="hasRole('ADMIN')") found on specific method: public org.springframework.http.ResponseEntity com.project.blog.controllers.UserController.deleteUser(java.lang.Integer)
+2022-06-01 23:10:22,343 DEBUG DelegatingMethodSecurityMetadataSource:  76 - [] Caching method [CacheKey[com.project.blog.controllers.UserController; public org.springframework.http.ResponseEntity com.project.blog.controllers.UserController.deleteUser(java.lang.Integer)]] with attributes [[authorize: 'hasRole('ADMIN')', filter: 'null', filterTarget: 'null']]
+2022-06-01 23:10:24,292 INFO  DefaultSecurityFilterChain:  52 - [] Will not secure any request
+2022-06-01 23:10:24,636 INFO  OptionalLiveReloadServer:  58 - [] LiveReload server is running on port 35729
+2022-06-01 23:10:25,702 INFO  TomcatWebServer:  220 - [] Tomcat started on port(s): 9005 (http) with context path ''
+2022-06-01 23:10:27,330 INFO  StartupInfoLogger:  61 - [] Started BlogAppApisApplication in 40.986 seconds (JVM running for 46.232)
+2022-06-01 23:13:59,735 INFO  DirectJDKLog:  173 - [] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-01 23:13:59,753 INFO  FrameworkServlet:  525 - [] Initializing Servlet 'dispatcherServlet'
+2022-06-01 23:13:59,855 INFO  FrameworkServlet:  547 - [] Completed initialization in 101 ms
+2022-06-01 23:13:59,894 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/index.html
+2022-06-01 23:13:59,921 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:13:59,933 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@7d82541c
+2022-06-01 23:13:59,936 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:13:59,948 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:13:59,953 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/index.html
+2022-06-01 23:14:00,186 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:05,903 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/springfox.css?v=3.0.0
+2022-06-01 23:14:05,904 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:05,905 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-06-01 23:14:05,906 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui.css?v=3.0.0
+2022-06-01 23:14:05,907 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@33b78cc2
+2022-06-01 23:14:05,908 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:05,908 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:05,909 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-06-01 23:14:05,910 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/springfox.js?v=3.0.0
+2022-06-01 23:14:05,914 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5f2bb940
+2022-06-01 23:14:05,916 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:05,921 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:05,913 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:05,921 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@15018455
+2022-06-01 23:14:05,915 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@7ab2aee9
+2022-06-01 23:14:05,920 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:05,922 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:05,922 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:05,921 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:05,923 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6ce8cf48
+2022-06-01 23:14:05,922 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:05,923 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:05,923 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/springfox.css?v=3.0.0
+2022-06-01 23:14:05,923 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-06-01 23:14:05,923 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:05,924 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:05,924 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-06-01 23:14:05,925 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:05,926 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui.css?v=3.0.0
+2022-06-01 23:14:05,929 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/springfox.js?v=3.0.0
+2022-06-01 23:14:05,948 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:05,998 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:06,021 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:06,023 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:06,094 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:06,456 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources/configuration/ui
+2022-06-01 23:14:06,457 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:06,458 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2d26a368
+2022-06-01 23:14:06,459 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:06,460 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:06,461 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources/configuration/ui
+2022-06-01 23:14:06,690 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:06,704 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources/configuration/security
+2022-06-01 23:14:06,705 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:06,706 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@15e8e6b1
+2022-06-01 23:14:06,706 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:06,707 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:06,708 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources/configuration/security
+2022-06-01 23:14:06,724 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:06,738 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources
+2022-06-01 23:14:06,738 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:06,739 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@26a6a4eb
+2022-06-01 23:14:06,739 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:06,740 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:06,741 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources
+2022-06-01 23:14:06,755 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:14:06,857 DEBUG FilterChainProxy:  208 - [] Securing GET /v2/api-docs
+2022-06-01 23:14:06,858 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:14:06,859 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@12504451
+2022-06-01 23:14:06,860 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:14:06,861 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:14:06,862 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /v2/api-docs
+2022-06-01 23:14:07,726 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:23:58,213 DEBUG FilterChainProxy:  208 - [] Securing POST /api/auth/login
+2022-06-01 23:23:58,241 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:23:58,249 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@3ad48df1
+2022-06-01 23:23:58,254 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:23:58,299 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:23:58,306 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured POST /api/auth/login
+2022-06-01 23:23:58,861 INFO  AuthController:  45 - [] request :- JwtAuthRequest(username=amit123@gmail.com, password=abc)
+2022-06-01 23:23:59,670 DEBUG DefaultAuthenticationEventPublisher:  121 - [] No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2022-06-01 23:23:59,716 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:24:05,560 DEBUG FilterChainProxy:  208 - [] Securing POST /api/auth/login
+2022-06-01 23:24:05,562 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:24:05,562 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5a120047
+2022-06-01 23:24:05,563 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:24:05,565 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:24:05,565 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured POST /api/auth/login
+2022-06-01 23:24:05,572 INFO  AuthController:  45 - [] request :- JwtAuthRequest(username=amit123@gmail.com, password=abc)
+2022-06-01 23:24:05,593 DEBUG DefaultAuthenticationEventPublisher:  121 - [] No event was found for the exception org.springframework.security.authentication.InternalAuthenticationServiceException
+2022-06-01 23:24:05,600 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:25:49,812 DEBUG FilterChainProxy:  208 - [] Securing POST /api/auth/login
+2022-06-01 23:25:49,813 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:25:49,813 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1fa04516
+2022-06-01 23:25:49,815 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:25:49,815 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:25:49,817 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured POST /api/auth/login
+2022-06-01 23:25:49,824 INFO  AuthController:  45 - [] request :- JwtAuthRequest(username=amit123@gmail.com, password=abc)
+2022-06-01 23:25:50,364 DEBUG AbstractUserDetailsAuthenticationProvider:  199 - [] Authenticated user
+2022-06-01 23:25:50,941 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:28:23,544 DEBUG FilterChainProxy:  208 - [] Securing DELETE /rest/api/deleteUser/11
+2022-06-01 23:28:23,546 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:28:23,547 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5567aabb
+2022-06-01 23:28:23,549 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzQGdtYWlsLmNvbSIsImV4cCI6MTY1NDEyNDE1MCwiaWF0IjoxNjU0MTA2MTUwfQ.zhp-jfmFWloPXpV7tGpngOo3o5SW8xo18QsmaqOVtAWmHxomyvdntL8kn1vpYcz4aKceF0deUeXCcZymB1NLgg
+2022-06-01 23:28:23,550 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:28:23,564 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:28:23,594 DEBUG FilterChainProxy:  208 - [] Securing DELETE /error
+2022-06-01 23:28:23,595 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:28:23,596 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:28:23,603 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured DELETE /error
+2022-06-01 23:28:23,769 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:57,880 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/index.html
+2022-06-01 23:29:57,881 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:57,882 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@17bfb2af
+2022-06-01 23:29:57,883 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:57,883 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:57,883 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/index.html
+2022-06-01 23:29:57,905 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:58,020 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui.css?v=3.0.0
+2022-06-01 23:29:58,023 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:58,024 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/springfox.css?v=3.0.0
+2022-06-01 23:29:58,024 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@6ce0c4c
+2022-06-01 23:29:58,025 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:58,025 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-06-01 23:29:58,025 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:58,026 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@433dc9d1
+2022-06-01 23:29:58,026 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:58,027 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:58,026 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-06-01 23:29:58,027 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:58,028 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@27827fd2
+2022-06-01 23:29:58,028 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui.css?v=3.0.0
+2022-06-01 23:29:58,029 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:58,028 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:58,030 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/springfox.js?v=3.0.0
+2022-06-01 23:29:58,032 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:58,033 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/springfox.css?v=3.0.0
+2022-06-01 23:29:58,033 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@3a3dff08
+2022-06-01 23:29:58,034 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:58,036 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:58,036 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:58,039 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:58,039 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0
+2022-06-01 23:29:58,038 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@587f0e78
+2022-06-01 23:29:58,042 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:58,042 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:58,043 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/springfox.js?v=3.0.0
+2022-06-01 23:29:58,039 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/swagger-ui-bundle.js?v=3.0.0
+2022-06-01 23:29:58,085 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:58,087 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:58,127 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:58,138 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:58,221 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:59,050 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources/configuration/ui
+2022-06-01 23:29:59,051 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:59,052 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@2a27167d
+2022-06-01 23:29:59,052 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:59,053 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:59,054 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources/configuration/ui
+2022-06-01 23:29:59,066 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:59,110 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/favicon-32x32.png?v=3.0.0
+2022-06-01 23:29:59,111 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:59,112 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources/configuration/security
+2022-06-01 23:29:59,112 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@1c6291b0
+2022-06-01 23:29:59,113 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:59,114 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:59,115 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:59,115 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@5d363ce6
+2022-06-01 23:29:59,116 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/favicon-32x32.png?v=3.0.0
+2022-06-01 23:29:59,116 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:59,117 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:59,117 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources/configuration/security
+2022-06-01 23:29:59,120 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:59,127 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-resources
+2022-06-01 23:29:59,127 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:59,128 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@72ae81d7
+2022-06-01 23:29:59,129 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:59,130 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:59,131 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-resources
+2022-06-01 23:29:59,136 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:59,141 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:59,250 DEBUG FilterChainProxy:  208 - [] Securing GET /v2/api-docs
+2022-06-01 23:29:59,250 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:59,251 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@497c4fb8
+2022-06-01 23:29:59,251 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:59,252 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:59,253 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /v2/api-docs
+2022-06-01 23:29:59,267 DEBUG FilterChainProxy:  208 - [] Securing GET /swagger-ui/favicon-32x32.png?v=3.0.0
+2022-06-01 23:29:59,268 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:29:59,268 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@155db911
+2022-06-01 23:29:59,268 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- null
+2022-06-01 23:29:59,269 DEBUG AnonymousAuthenticationFilter:  100 - [] Set SecurityContextHolder to anonymous SecurityContext
+2022-06-01 23:29:59,270 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured GET /swagger-ui/favicon-32x32.png?v=3.0.0
+2022-06-01 23:29:59,276 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:29:59,627 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
+2022-06-01 23:30:40,740 DEBUG FilterChainProxy:  208 - [] Securing DELETE /rest/api/deleteUser/11
+2022-06-01 23:30:40,741 DEBUG SecurityContextPersistenceFilter:  102 - [] Set SecurityContextHolder to empty SecurityContext
+2022-06-01 23:30:40,742 INFO  JwtAuthenticationFilter:  42 - [] request :- org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@3b776268
+2022-06-01 23:30:40,743 INFO  JwtAuthenticationFilter:  48 - [] requestToken :- Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhbWl0MTIzQGdtYWlsLmNvbSIsImV4cCI6MTY1NDEyNDE1MCwiaWF0IjoxNjU0MTA2MTUwfQ.zhp-jfmFWloPXpV7tGpngOo3o5SW8xo18QsmaqOVtAWmHxomyvdntL8kn1vpYcz4aKceF0deUeXCcZymB1NLgg
+2022-06-01 23:30:41,038 DEBUG FilterChainProxy$VirtualFilterChain:  323 - [] Secured DELETE /rest/api/deleteUser/11
+2022-06-01 23:30:41,126 DEBUG AbstractSecurityInterceptor:  210 - [] Authorized ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.project.blog.controllers.UserController.deleteUser(java.lang.Integer); target is of class [com.project.blog.controllers.UserController] with attributes [[authorize: 'hasRole('ADMIN')', filter: 'null', filterTarget: 'null']]
+2022-06-01 23:30:41,489 DEBUG SecurityContextPersistenceFilter:  118 - [] Cleared SecurityContextHolder to complete request
